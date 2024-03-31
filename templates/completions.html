@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantifi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-inter bg-gray-100 p-8">
+  <div class="min-h-screen">
+    <header class="flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 3h3v18h-3M8 21H5V3h3" />
+        </svg>
+        <a href="/"> <span class="text-2xl font-bold cursor-pointer">CodeCraft Ai</span></a>
+      </div>
+    </header>
+    <div class="mt-8 flex">
+      <aside class="w-64">
+        <nav class="mb-8">
+          <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-500">Playground</p>
+          <ul class="space-y-1">
+            <li>
+              <a href="/project" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Project Planer 
+              </a>
+            <li>
+              <li>
+                <a href="/diagram" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                  Dev-friendly Docs
+                </a>
+              </li>
+            <li>
+              <a href="/planning" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Diagrams Designer 
+              </a>
+            </li>
+            <li>
+              <a href="/progress" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Track Progress
+              </a>
+            </li>
+          
+            <li>
+              <a href="/completions" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Code Completions
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="flex-1 ml-8">
+        <h1 class="text-3xl font-bold">Personalized Project Planner for Developers!</h1>
+        <p style="padding-bottom: 10px;">Let's create step-by-step guidance to developers for breaking down coding projects and accelerating development workflows</p>
+        <script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.19.1/gradio.js"
+></script>
+
+<gradio-app src="https://ombhojane-bigcode-starcoder2.hf.space"></gradio-app>
+
+
+
+      </main>
+    </div>
+  </div>
+</body>
+</html>

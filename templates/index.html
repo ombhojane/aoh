@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantifi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-inter bg-gray-100 p-8">
+  <div class="min-h-screen">
+    <header class="flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 3h3v18h-3M8 21H5V3h3" />
+        </svg>
+        <a href="/"> <span class="text-2xl font-bold cursor-pointer">CodeCraft Ai</span></a>
+      </div>
+    </header>
+    <div class="mt-8 flex">
+      <aside class="w-64">
+        <nav class="mb-8">
+          <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-500">Playground</p>
+          <ul class="space-y-1">
+            <li>
+              <a href="/project" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Project Planer 
+              </a>
+            <li>
+              <li>
+                <a href="/diagram" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                  Dev-friendly Docs
+                </a>
+              </li>
+              <a href="/planning" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Diagrams Designer 
+              </a>
+            </li>
+            <li>
+              <a href="/progress" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Track Progress
+              </a>
+            </li>
+            
+            <li>
+              <a href="/completions" class="inline-flex items-center h-10 px-4 py-2 text-sm font-medium rounded-lg justify-start text-accent-foreground bg-accent hover:text-accent-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors">
+                Code Completions
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="flex-1 ml-8">
+        <h1 class="text-3xl font-bold">CodeBuddy - Your AI-powered coding companion</h1>
+        <p>CodeBuddy is an AI assistant designed to provide intuitive, step-by-step guidance to developers for breaking down coding projects and accelerating development workflows.</p>
+        <h2>How it works:</h2>
+        <ul>
+          <li>Developers can describe a high-level project idea to CodeBuddy in natural language.</li>
+          <li>CodeBuddy asks thoughtful follow-up questions to deeply understand project requirements.</li>
+          <li>It then structurally analyzes needs to create a modular breakdown of coding tasks required.</li>
+          <li>CodeBuddy maintains state and checklists to track task completion progress.</li>
+          <li>For each coding task, CodeBuddy provides detailed, interactive guidance on the exact commands and steps required to accomplish it.</li>
+        </ul>
+        <p>For example, for generating a React boilerplate app, CodeBuddy will guide the developer on initializing the app, adding folders, installing libraries, creating component files - one step at a time.</p>
+        <p>Developers can mark tasks as complete as they progress through the guided workflows. CodeBuddy remembers where developers left off to provide continued assistance.</p>
+        <h2>Key benefits:</h2>
+        <ul>
+          <li>Intuitive coding assistance through conversational guidance.</li>
+          <li>Automatic project breakdown into modular tasks.</li>
+          <li>Checklisted tracking for progress visibility.</li>
+          <li>Step-wise coding directions tailored to developer context.</li>
+          <li>Accelerated development workflows.</li>
+        </ul>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
